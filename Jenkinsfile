@@ -11,7 +11,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/PaperMC/Velocity.git'
+                git url: 'https://github.com/lsgadminlab/VelocityMC-K8s-Resource.git'
             }
         }
 
